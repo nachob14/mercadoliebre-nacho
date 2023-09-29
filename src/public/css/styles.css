@@ -23,8 +23,8 @@
         background-color: #EAC926;
         padding-bottom: 15px;
     }
-    /*logo AND box__search */
-    #box__logo__search{
+    
+    #logo__search{
         display: flex;
         align-items: center;
         width: 100vw;
@@ -37,7 +37,7 @@
         padding: 10px;
     }
     /*search*/
-    #box__search{
+    #box_search{
         width: 50vw;
         display: flex;
         justify-content: flex-start;
@@ -53,12 +53,12 @@
         font-size: 0.65rem;
         outline: none;
     }
-    .button__lupa{
+    .button_lupa{
         background-color: transparent;
         border: none;
         margin-left: 5px;
     }
-    #tdc{
+    #tarjeta {
         display: flex;
         justify-content: center;
     }
@@ -74,7 +74,7 @@
         display: none;
     }
     /*boton hamburguesa*/
-    .burger__menu{
+    .burger_menu{
         display: block;
         margin: auto;
         font-size: 20px;
@@ -132,7 +132,7 @@
         display: flex;
         justify-content: end;
     }
-    .card__product{
+    .card_product{
         margin-bottom: 40px;
     }
     .product{
@@ -143,7 +143,7 @@
         width: 100%;
         padding: 0 10px;
     }
-    .box__info{
+    .box_info{
         display: inline-flex;
         margin-bottom: 20px;
     }
@@ -155,7 +155,7 @@
     
     /*---------------- MAIN FORMUALRIOS ///REGISTER AND LOGIN//// ---------------------*/
     /*estilos generales que se usaron para los form de los dos html, register and login*/
-    .forms__container{
+    .forms_container{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
@@ -166,12 +166,12 @@
         border: none;
         margin-bottom: 20px;
     }
-    #date__interests legend, fieldset legend, #password label, .date__personal label {
+    #date_interests legend, fieldset legend, #password label, .data_personal label {
         font-weight: bold;
         margin: 0 0 10px 5px;
     }
     /*TODOS LOS INPUT  */
-    .date__personal input, #password input{
+    .data_personal input, #password input{
         padding: 8px;
         border: none;
         border-radius: 5px;
@@ -179,25 +179,25 @@
         outline-color: #EAC926;
     }
     /* datos personales y contraseña */
-    .date__personal, #password{
+    .data_personal, #password{
         display: flex;
         flex-direction: column;
     }
      /* datos de intereses */
-     #date__interests article{
+     #date_interests article{
         display: flex;
         align-items: center;
         margin-bottom: 20px;
       }
       /*plus mismos estilos a los input de datos de usuarios, foto de usuario y de datos de intereses*/
-    #date__interests input, #date__user input, #photo-username{
+    #date_interests input, #data_user input, #photo-username{
         margin: 0 30px;
     }
     /* BOTONES */
-    .forms__container a{
+    .forms_container a{
         text-decoration: none;
     }
-    .forms__container button{
+    .forms_container button{
         background-color: #03264C;
         color: white;
         padding: 10px 20px;
@@ -207,7 +207,7 @@
         margin-bottom: 20px;
     }
     /*para centrar el texto de inicia sesion*/
-    .date__sesion legend{
+    .date_sesion legend{
         text-align: center;
     }
     /* footer */
@@ -227,7 +227,7 @@
         color: #03264C;
     }
 
-    article h4, .info__footer, h6{
+    article h4, .info_footer, h6{
         color: #666;
         text-align: center;
         margin: 3px;
@@ -235,7 +235,7 @@
     h6{
         font-weight: lighter;
     }
-    .info__footer{
+    .info_footer{
         margin-bottom: 45px;
     }
     footer > .miNombre{
@@ -253,13 +253,13 @@
 
     @media (min-width: 769px){
         /* header - logo - search - cuotas */
-        .header__container{
+        .header_container{
             display: flex;
             justify-content: space-around;
             align-content: center;
             padding-bottom: 10px;
         }
-        #box__logo__search{
+        #logo__search{
             width: 70vw;
         }
         #logo img{
@@ -273,7 +273,7 @@
         #tdc p{
             font-size: 0.9rem;
         }
-        .button__lupa{
+        .button_lupa{
         margin-left: 30px;
         }
         #tdc{
@@ -299,21 +299,21 @@
             padding: 5px;
         }
         /*boton hamburguesa*/
-        .burger__menu{
+        .burger_menu{
             display: none;
         }
         /*----------------MAIN INDEX---------------------*/
-        .products__container{
+        .products_container{
             display: flex;
             flex-wrap: wrap;
         }
-        .card__product{
+        .card_product{
             
             width: 45%;
             margin: 15px;
         }
 
-        .card__product:hover{
+        .card_product:hover{
             box-shadow: 0px 0px 10px rgb(100, 100, 100);
         }
 
@@ -332,12 +332,12 @@
             transition: opacity 0.3s ease;
         }
 
-        .card__product:hover .description{
+        .card_product:hover .description{
             visibility: visible;
             opacity: 1;
         }
         /*main formularios*/
-        .box__forms{
+        .box_forms{
             width: 100vw;
             padding: 0 30px;
         }
@@ -346,19 +346,19 @@
             display: flex;
             justify-content: space-around;
         }
-        .article__footer{
+        .article_footer{
             margin: 20px;
         }
         h4{
             font-size: 1.2rem;
         }
-        .info__footer{
+        .info_footer{
             font-size: 1rem;
         }
     }
     @media (min-width: 1200px){
         /* header - logo - search - cuotas */
-        .header__container{
+        .header_container{
             display: 
             flex;
             justify-items: center;
@@ -370,7 +370,7 @@
         #tdc p{
             font-size: 1rem;
         }
-        .button__lupa{
+        .button_lupa{
             margin-right: 15px;
         }
         /*navBAr*/
@@ -378,36 +378,36 @@
             padding: 20px;
         }
         /*----------------MAIN INDEX---------------------*/
-        .products__container{
+        .products_container{
             display: flex;
             flex-wrap: wrap;
             justify-content: space-around;
         }
-        .card__product{
+        .card_product{
             width: 22%;
         }
          /*---------- main formularios --------------*/
          /*main formularios*/
-        .box__forms{
+        .box_forms{
             padding: 0 300px;
         }
-        .card__btn{
+        .card_btn{
             display: flex;
             flex-direction: row;
         }
-        .card__btn button{
+        .card_btn button{
             width: 300px;
         }
-        .card__btn #reset{
+        .card_btn #reset{
             margin-left: 30px;
         }
         /*centrar el boton de enviar de inicia sesion*/
-        .btn--enviar{
+        .btn-enviar{
             justify-content: center;
         }
 
         /*cambiar color del boton de login al pasar el mouse por arriba*/
-        #botonEnviarLogin:hover {
+        #buttonSubmitLogin:hover {
             background-color: #0022AA;
         }
       
