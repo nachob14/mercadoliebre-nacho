@@ -24,7 +24,7 @@
         padding-bottom: 15px;
     }
     
-    #logo__search{
+    #logo_search{
         display: flex;
         align-items: center;
         width: 100vw;
@@ -62,11 +62,11 @@
         display: flex;
         justify-content: center;
     }
-    #tdc p{
+    #tarjeta p{
         font-size: 0.85rem;
         margin-bottom: 10px;
     }
-    #tdc i{
+    #tarjeta i{
         margin: 0 10px;
     }
     /*navBar*/
@@ -251,7 +251,7 @@
         }
       }
 
-    @media (min-width: 769px){
+    @media (min-width: 768px){
         /* header - logo - search - cuotas */
         .header_container{
             display: flex;
@@ -259,7 +259,7 @@
             align-content: center;
             padding-bottom: 10px;
         }
-        #logo__search{
+        #logo_search{
             width: 70vw;
         }
         #logo img{
@@ -270,13 +270,13 @@
             width: 80%;
             font-size: 0.9rem;
         }
-        #tdc p{
+        #tarjeta p{
             font-size: 0.9rem;
         }
         .button_lupa{
         margin-left: 30px;
         }
-        #tdc{
+        #tarjeta{
             width: 30vw;
             align-items: center;
             justify-content: center;
@@ -367,7 +367,7 @@
             width: 100%;
             padding: 4px;
         }
-        #tdc p{
+        #tarjeta p{
             font-size: 1rem;
         }
         .button_lupa{
@@ -410,10 +410,4 @@
         #buttonSubmitLogin:hover {
             background-color: #0022AA;
         }
-      
-
-      
-    
-        
-
     }
